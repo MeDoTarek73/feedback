@@ -12,7 +12,7 @@ function RatingSelect({ select, maxRating }) {
 
     const renderRatingOptions = () => {
         const options = [];
-        for (let i = 1; i <= +maxRating; i++) {
+        for (let i = 1; i <= maxRating; i++) {
             options.push(
                 <li key={i}>
                     <input
